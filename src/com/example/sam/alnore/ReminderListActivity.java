@@ -2,9 +2,10 @@ package com.example.sam.alnore;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.app.ListActivity;
 import android.view.Menu;
 
-public class ReminderListActivity extends Activity {
+public class ReminderListActivity extends ListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
